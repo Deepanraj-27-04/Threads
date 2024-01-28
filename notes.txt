@@ -8,3 +8,14 @@ start method:
 join method:
     keep waittig the main method untill the thread processes complete.
     It is used to wait for a thread to finish its excution .
+
+synchronisation:
+    synchronisation is used to control access to shared resources by multiple threads.
+    This important to prevent data corruption and ensure consistency when multiple threads are concurrently accessing and modifying shared data.
+    synchronized is key word to implement synchronisation.
+    synchronisation is implemented in two ways:
+    when a method is declared as synchronized only one thread can excute that method on the same instance of the class at a time.
+
+synchronized block:
+    It provide more fine grain control over synchronisation compare to synchronized method.
+    It allows multiple thread to excute non synchronized code concurrently while ensuring that access to critical section is serailized.
