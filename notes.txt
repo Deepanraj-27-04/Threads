@@ -1,0 +1,10 @@
+start method:
+=> used to start the execution of the thread.
+=> perform following applications:
+    register the thread with thread schedular.
+    perform stack mechanism for the new threads.
+    invoke run method.
+
+join method:
+    keep waittig the main method untill the thread processes complete.
+    It is used to wait for a thread to finish its excution .
