@@ -19,3 +19,19 @@ synchronisation:
 synchronized block:
     It provide more fine grain control over synchronisation compare to synchronized method.
     It allows multiple thread to excute non synchronized code concurrently while ensuring that access to critical section is serailized.
+
+
+write a java program to check wheather the given number is vaild based on the following:
+    1.number must be btwn 13 to 16 digits.
+    2.number should start with either 4 or 5 or 6.
+     step-2double every 2nd digits from right to left,if doubling of a digit results in a two digit number add the two digit to get a single number
+     and now add all single digits numbers.
+     step-3 add all digits in the odd places from right to left. 
+     step-4 sum the result step 2 and step 3.
+     step5- if the result from step is divisible by 10 then the number is valid othervise invalid.
+
+write a java program to implement ticket booking processes.
+    1.threate will have 50 seats 
+    2.read number of tickets used by the user.
+    3.implement multiple user management.
+    4.if number of ticket is not available print "not available"  
